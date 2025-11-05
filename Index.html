@@ -1,0 +1,505 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DETECTIVE CONAN</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css">
+     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@12/swiper-bundle.min.css"/>
+    <link rel="stylesheet" href="UTS_SALMA.css">
+    <link rel="icon" href="Images/favicon.ico" type="png">
+
+</head>
+<body>
+    <!--Header navbar bagian atas-->
+    <header>
+        <nav class="navbar section-content">
+            <a href="#" class="nav-logo">
+                <h2 class="logo-image"> <img src="Images/logo.png" alt="logo detco"></h2>
+            </a>
+            <ul class="nav-header">
+                <li class="nav-item">
+                    <a href="#" class="nav-link">Home</a>
+                </li>
+                 <li class="nav-item">
+                        <a href="#About" class="nav-link">About</a>
+                         <ul class="dropdown-menu">
+                            <li>
+                            <a href="UTS_ABOUT.html#History" target="_blank" class="nav-sub">History</a>
+                            </li>
+                            <li>
+                            <a href="UTS_ABOUT.html#Anime" target="_blank" class="nav-sub">Anime</a>
+                            </li>
+                             <li>
+                             <a href="UTS_ABOUT.html#Movies" target="_blank" class="nav-sub">Movies</a>
+                            </li>
+                            <li>
+                            <a href="UTS_ABOUT.html#Faction"  target="_blank" class="nav-sub">Faction</a>
+                            </li>
+                        </ul>
+                    </li>
+                <li class="nav-item">
+                    <a href="#Characters" class="nav-link">Characters</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#News" class="nav-link">News</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#Merchandise" class="nav-link">Merchandise</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#Gallery" class="nav-link">Gallery</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#Contact" class="nav-link">Contact</a>
+                </li>
+                <li class="nav-item backsound-icon">
+                <a href="#" id="backsoundBtn" title="Play/Pause Backsound">
+                    <i class="fa-solid fa-music"></i>
+                </a>
+                <audio id="backsound" loop>
+                    <source src="Images/maintheme.mp3" type="audio/mpeg">
+                </audio>
+                </li>
+            </ul>
+        </nav>
+    </header>
+
+    <!--Side bar-->
+        <div class="menu-btn">
+            <i class="fas fa-bars"></i>
+        </div>
+         <div class="side-bar">
+            <div class="close-btn">
+                <i class="fas fa-times"></i>
+            </div>
+            <div class="menu">
+                <div class="item"> <a href="#"> <img src="Images/logo.png" alt=""></a> </div>
+                <div class="item">
+                <iframe width="100%" height="160" src="https://www.youtube.com/embed/28drjVMhVVw?si=-fmB9E3s-z1nd_GH" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                <a  class="sub-btn" href="#"> <i class="fas fa-house"></i> Home </a> <br>
+                <a  class="sub-btn" href="#About"> <i class="fas fa-book-open"></i> About </a> <br>
+                <a  class="sub-btn" href="#Characters"> <i class="fas fa-user"></i> Characters </a> <br>
+                <a  class="sub-btn" href="#News"> <i class="fas fa-newspaper"></i> News </a> <br>
+                <a  class="sub-btn" href="#Merchandise"> <i class="fas fa-shopping-bag"></i> Merchandise </a> <br>
+                <a  class="sub-btn" href="#Gallery"> <i class="fas fa-images"></i> Gallery </a> <br>
+                <a  class="sub-btn" href="#Contact"> <i class="fas fa-envelope"></i> Contact </a> <br>
+                </div>
+            </div>
+        </div>
+   
+
+    
+
+    <main>
+        <!--main section-->
+        <section class="main-section" id="Home">
+            <video autoplay muted loop playsinline class="bg-video">
+            <source src="Images/BackgroundVid.mp4" type="video/mp4">
+             </video>
+            <div class="section-content">
+            <div class="main-details">
+                <div class="main-image-wrapper">
+                <img src="Images/onetruth.png" alt="logo dental" class="main-image">
+            </div>
+                <div class="buttons">
+                    <a href="#About" class="button scroll"> Scroll Down to knows more </a>
+                </div>
+            </div>
+            
+            </div>
+        </section>
+
+        <!--About section-->
+        <section class="About-section" id="About">
+        <div class="section-content">
+            <div class="About-image-wrapper">
+               <iframe width="560" height="315" src="https://www.youtube.com/embed/OhamdzseR4o?si=W1wE04TNMoVx0-E8" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+            </div>
+            <div class="About-details">
+                <h2 class="section-title"> ABOUT </h2>
+                <p class="text">Detective Conan, also known as Case Closed, is a Japanese mystery series created by Gosho Aoyama. It follows Shinichi Kudo, a brilliant high school detective who is transformed into a child after being forced to take a mysterious poison by a secret organization. Taking on the alias Conan Edogawa, he continues solving complex cases while secretly searching for the people who did this to him — and a way to return to his true 
+                </div>
+            </div>
+            <div class="continue-btn">
+             <a href="UTS_ABOUT.html" class="btn-purchase" target="_blank" >More About Detective Conan</a>
+        </div>
+        </div>
+    
+        </section>
+
+    <section class="Characters-section" id="Characters"> <!-- Slides -->
+    <div class="Characters-details">
+    <h2 class="section-title"> Characters </h2>
+        <div class="swiper">
+        <div class="swiper-wrapper">
+        
+            <div class="swiper-slide">
+                <img src="https://i.pinimg.com/736x/e3/6a/fc/e36afc385a4da77fb94e8ed3215e1053.jpg" alt="Conan">
+                <div class="title"><span> Edogawa Conan </span></div>
+            </div>
+            <div class="swiper-slide">
+                <img src="https://i.pinimg.com/736x/c2/3b/0a/c23b0a6de43ebd6d38759da4b13c86a5.jpg" alt="Shinichi">
+                <div class="title"><span> Shinichi Kudo </span></div>
+            </div>
+            <div class="swiper-slide">
+                <img src="https://i.pinimg.com/736x/fa/56/75/fa567501581caf17cc10b622dd486bcf.jpg" alt="Ran">
+                <div class="title"><span>Ran Mouri</span></div>
+            </div>
+            <div class="swiper-slide">
+                <img src="https://i.pinimg.com/736x/51/4c/86/514c8689216c68df6a0c1404617db306.jpg" alt="Kogoro">
+                <div class="title"><span>Kogoro Mouri</span></div>
+            </div>
+            <div class="swiper-slide">
+                <img src="https://i.pinimg.com/736x/de/fe/93/defe93a5b4ecb9d8f80eaad06e4805b0.jpg" alt="Kaito">
+                <div class="title"><span>Kaito Kid</span></div>
+            </div>
+            <div class="swiper-slide">
+                <img src="https://i.pinimg.com/736x/8f/eb/0e/8feb0e9bcb5877fd9d33dc782640e3e2.jpg" alt="Agasa">
+                <div class="title"><span>Profesor Agasa</span></div>
+            </div>
+            <div class="swiper-slide">
+                <img src="https://i.pinimg.com/736x/da/81/a1/da81a1a5d7965d54ec2d04a4bff0ea1a.jpg" alt="Heiji">
+                <div class="title"><span>Heiji Hattori</span></div>
+            </div>
+            <div class="swiper-slide">
+                <img src="https://i.pinimg.com/736x/d1/4c/01/d14c0114470b8ec7037bf302c56962a4.jpg" alt="Akai">
+                <div class="title"><span>Akai Shuichi</span></div>
+            </div>
+            <div class="swiper-slide">
+                <img src="https://i.pinimg.com/736x/67/f7/e3/67f7e3b8cb43500c234bd696819711a9.jpg" alt="Rei">
+                <div class="title"><span>Furuya Rei</span></div>
+            </div>
+        </div> 
+        <div class="swiper-pagination"></div>
+        </div>
+    </div>
+    </div>
+    </section>
+
+        <!--News section-->
+        <section class="News-section" id="News">
+        <h2 class="section-title"> News</h2>
+        <div class="section-content">
+            <ul class="News-list">
+             <li class="News-item"> <!--News 1-->
+                <a href="https://www.animenewsnetwork.com/news/2025-10-08/detective-conan-the-bride-of-halloween-2-more-detective-conan-films-stream-on-youtube-over-next-3-/.229752" target="_blank"><img src="https://i.pinimg.com/736x/bb/ab/f2/bbabf2319566da9b3aa4a071720fbe90.jpg" alt="news 1"></a>
+                <a href="https://www.animenewsnetwork.com/news/2025-10-08/detective-conan-the-bride-of-halloween-2-more-detective-conan-films-stream-on-youtube-over-next-3-/.229752" target="_blank"><h3 class="name">Detective Conan: The Bride of Halloween, 2 More Detective Conan Films Stream on YouTube Over Next 3 Saturdays</h3></a>
+                <p class="text"> TMS Entertainment began streaming a specially curated selection of episodes from the Detective Conan (Case Closed) anime on Crunchyroll and Netflix on July 3. The episodes are streaming in Japanese and with a new English dub, which marks the new dub's first appearance on Crunchyroll.</p>
+                <a href="https://www.animenewsnetwork.com/news/2025-10-08/detective-conan-the-bride-of-halloween-2-more-detective-conan-films-stream-on-youtube-over-next-3-/.229752" target="_blank" class="btn"> Read More</a>
+             </li>
+            <li class="News-item"> <!--News 2-->
+                <a href="https://anitrendz.net/news/2025/02/25/detective-conan-sekigan-no-flashback-unveils-snowy-main-visual-new-trailer/" target="_blank"><img src="https://i.pinimg.com/1200x/26/19/50/2619503c40dfc4a218e0b2021936f583.jpg" alt="news 2"></a>
+                <a href="https://anitrendz.net/news/2025/02/25/detective-conan-sekigan-no-flashback-unveils-snowy-main-visual-new-trailer/" target="_blank"><h3 class="name">Detective Conan: Sekigan no Flashback Unveils Snowy Main Visual & New Trailer</h3></a>
+                <p class="text"> A new main key visual and trailer have been unveiled for the upcoming Detective Conan: Sekigan no Flashback anime film. The 28th film in the long-running franchise will be released theatrically in Japan on April 18, 2025. </p>
+                <a href="https://anitrendz.net/news/2025/02/25/detective-conan-sekigan-no-flashback-unveils-snowy-main-visual-new-trailer/" target="_blank" class="btn"> Read More</a>
+             </li>
+            <li class="News-item"> <!--News 3-->
+                <a href="https://www.crunchyroll.com/news/latest/2025/3/10/detective-conan-one-eyed-flashback-anime-movie-widest-release-522-theaters" target="_blank"><img src="https://i.pinimg.com/736x/a5/19/30/a5193035427d248b59cd0691b256a768.jpg" alt="news 3"></a>
+                <a href="https://www.crunchyroll.com/news/latest/2025/3/10/detective-conan-one-eyed-flashback-anime-movie-widest-release-522-theaters" target="_blank"><h3 class="name">Detective Conan: One-eyed Flashback Anime Movie Gets Widest Release in 522 Theaters</h3></a>
+                <p class="text"> The official website for Detective Conan the film will also screen simultaneously in 55 IMAX theaters, 12 MX4D theaters, 62 4DX theaters, and 9 Dolby Cinema theaters on April 18, the day of the film's nationwide release </p>
+                <a href="https://www.crunchyroll.com/news/latest/2025/3/10/detective-conan-one-eyed-flashback-anime-movie-widest-release-522-theaters" target="_blank" class="btn"> Read More</a>
+             </li>
+              <li class="News-item"> <!--News 4-->
+                <a href="https://www.msn.com/en-in/money/topstories/detective-conan-movie-27-breaks-1-billion-yen-record-on-opening-day-in-japan/ar-AA1DkqIt?apiversion=v2&noservercache=1&domshim=1&renderwebcomponents=1&wcseo=1&batchservertelemetry=1&noservertelemetry=1" target="_blank"><img src="https://i.pinimg.com/1200x/38/a6/3a/38a63a893f3f6a4c15bc76c8f4f08cb5.jpg" alt="news 4"></a>
+                <a href="https://www.msn.com/en-in/money/topstories/detective-conan-movie-27-breaks-1-billion-yen-record-on-opening-day-in-japan/ar-AA1DkqIt?apiversion=v2&noservercache=1&domshim=1&renderwebcomponents=1&wcseo=1&batchservertelemetry=1&noservertelemetry=1" target="_blank"><h3 class="name">Detective Conan movie 27 breaks 1 billion Yen record on opening day in Japan</h3></a>
+                <p class="text"> The official website for Detective Conan: One-eyed Flashback, the upcoming 28th feature film in the Detective Conan/Case Closed anime franchise, announced today that the film will also screen simultaneously in 55 IMAX theaters, 12 MX4D theaters, 62 4DX theaters, and 9 Dolby Cinema theaters on April 18, the day of the film's nationwide release </p>
+                <a href="https://www.msn.com/en-in/money/topstories/detective-conan-movie-27-breaks-1-billion-yen-record-on-opening-day-in-japan/ar-AA1DkqIt?apiversion=v2&noservercache=1&domshim=1&renderwebcomponents=1&wcseo=1&batchservertelemetry=1&noservertelemetry=1" target="_blank" class="btn"> Read More</a>
+             </li>
+             <li class="News-item"> <!--News 5-->
+                <a href="https://www.animenewsnetwork.com/news/2025-09-19/detective-conan-anime-gets-episode-zero-1-hour-special-in-january-2026/.228977" target="_blank"><img src="https://i.pinimg.com/1200x/a9/ab/4a/a9ab4aadb76b1dc776c9b9f0b54d1886.jpg" alt="news5"></a>
+                <a href="https://www.animenewsnetwork.com/news/2025-09-19/detective-conan-anime-gets-episode-zero-1-hour-special-in-january-2026/.228977" target="_blank"><h3 class="name">Detective Conan Anime Gets 'Episode Zero' 1-Hour Special in January 2026 </h3></a>
+                <p class="text"> The official website for Detective Conan: One-eyed Flashback, the upcoming 28th feature film in the Detective Conan/Case Closed anime franchise, announced today that the film will also screen simultaneously in 55 IMAX theaters, 12 MX4D theaters, 62 4DX theaters, and 9 Dolby Cinema theaters on April 18, the day of the film's nationwide release </p>
+                <a href="https://www.animenewsnetwork.com/news/2025-09-19/detective-conan-anime-gets-episode-zero-1-hour-special-in-january-2026/.228977" target="_blank" class="btn"> Read More</a>
+             </li>
+             <li class="News-item"> <!--News 6-->
+                <a href="https://www.animenewsnetwork.com/news/2025-09-25/detective-conan-one-eyed-flashback-will-open-in-u.k-and-ireland-cinemas-on-friday/.229276" target="_blank"><img src="https://i.pinimg.com/1200x/9d/e5/b7/9de5b774f1dd4ff974942dbd6ab392d9.jpg" alt="news6"></a>
+                <a href=https://www.animenewsnetwork.com/news/2025-09-25/detective-conan-one-eyed-flashback-will-open-in-u.k-and-ireland-cinemas-on-friday/.229276" target="_blank"><h3 class="name">Detective Conan: One-Eyed Flashback Will Open in U.K. and Ireland Cinemas on Friday</h3></a>
+                <p class="text"> The official website for Detective Conan: One-eyed Flashback, the upcoming 28th feature film in the Detective Conan/Case Closed anime franchise, announced today that the film will also screen simultaneously in 55 IMAX theaters, 12 MX4D theaters, 62 4DX theaters, and 9 Dolby Cinema theaters on April 18, the day of the film's nationwide release </p>
+                <a href="https://www.animenewsnetwork.com/news/2025-09-25/detective-conan-one-eyed-flashback-will-open-in-u.k-and-ireland-cinemas-on-friday/.229276" target="_blank" class="btn"> Read More</a>
+             </li>
+            </ul>
+        </div>
+        </section>
+
+
+        <section class="Merchandise" id="Merchandise">
+            <h2 class="section-title"> Merchandise </h2>
+            <div class="box-container">
+                <div class="box">
+                    <div class="image">
+                        <img src="https://i.pinimg.com/1200x/c3/32/88/c33288644a1e315298cf247fe1de95aa.jpg" alt="merch 1">
+                        <div class="icons">
+                            <a class="fas fa-heart"></a>
+                             <a href="UTS_FORM.html" target="_blank" class="card-btn">add to cart</a>
+                              <a class="fas fa-share"></a>
+                        </div>
+                    </div>
+                    <div class="content">
+                        <h3>Random Badge</h3>
+                        <div class="price">Rp. 60.000</div>
+                    </div>
+                </div>
+                <div class="box">
+                    <div class="image">
+                        <img src="https://i.pinimg.com/736x/f8/88/c5/f888c50fd962b04729ec8b01b53a0347.jpg" alt="merch 2">
+                        <div class="icons">
+                            <a class="fas fa-heart"></a>
+                             <a href="UTS_FORM.html" target="_blank" class="card-btn">add to cart</a>
+                              <a class="fas fa-share"></a>
+                        </div>
+                    </div>
+                    <div class="content">
+                        <h3>Conan Plushie</h3>
+                        <div class="price">Rp. 250.000</div>
+                    </div>
+                </div>
+                <div class="box">
+                    <div class="image">
+                        <img src="https://i.pinimg.com/736x/6a/f1/67/6af16749b7b7865d7da6cd77dcb9a9f9.jpg" alt="merch 3">
+                        <div class="icons">
+                            <a class="fas fa-heart"></a>
+                             <a href="UTS_FORM.html" target="_blank" class="card-btn">add to cart</a>
+                              <a class="fas fa-share"></a>
+                        </div>
+                    </div>
+                    <div class="content">
+                        <h3>Conan Nendroid</h3>
+                        <div class="price">Rp. 550.000</div>
+                    </div>
+                </div>
+                <div class="box">
+                    <div class="image">
+                        <img src="https://i.pinimg.com/736x/47/85/5f/47855f4fc8657ee5a4a2099d2a8a7dc9.jpg" alt="merch 4">
+                        <div class="icons">
+                            <a class="fas fa-heart"></a>
+                             <a href="UTS_FORM.html" target="_blank" class="card-btn">add to cart</a>
+                              <a class="fas fa-share"></a>
+                        </div>
+                    </div>
+                    <div class="content">
+                        <h3>Kaito Kid Nendroid</h3>
+                        <div class="price">Rp. 550.000</div>
+                    </div>
+                </div>
+                <div class="box">
+                    <div class="image">
+                        <img src="https://i.pinimg.com/736x/a4/be/24/a4be2460111b65e08491a1f4c39534f0.jpg" alt="merch 5">
+                        <div class="icons">
+                            <a class="fas fa-heart"></a>
+                             <a href="UTS_FORM.html" target="_blank" class="card-btn">add to cart</a>
+                              <a class="fas fa-share"></a>
+                        </div>
+                    </div>
+                    <div class="content">
+                        <h3>Akai Shuichi Figure</h3>
+                        <div class="price">Rp. 370.000</div>
+                    </div>
+                </div>
+                <div class="box">
+                    <div class="image">
+                        <img src="https://i.pinimg.com/736x/9b/94/3c/9b943c73126f814acb78b7a7d07599f3.jpg" alt="merch 6">
+                        <div class="icons">
+                            <a class="fas fa-heart"></a>
+                             <a href="UTS_FORM.html" target="_blank" class="card-btn">add to cart</a>
+                              <a class="fas fa-share"></a>
+                        </div>
+                    </div>
+                    <div class="content">
+                        <h3>Amuro Tooru Figure</h3>
+                        <div class="price">Rp. 350.000</div>
+                    </div>
+                </div>
+            </div>
+             <div class="continue-btn">
+        <a href="UTS_FORM.html" target="_blank" class="btn-purchase">Continue Purchase Here</a>
+    </div>
+         </section>
+        
+       
+
+        <!--flipped-->
+        <section class="Gallery-section" id="Gallery">
+             <h2 class="section-title"> Gallery of best episodes from Detective Conan</h2>
+              <div class="card-container">
+        <div class="flip-card">
+            <div class="flip-card-inner">
+                <div class="flip-card-front">
+                    <img src="images/gallery1.webp" alt="Conan vs. Kaito Kid (Episode 78-79)" />
+                    <h3>Conan vs. Kaito Kid</h3>
+                </div>
+                <div class="flip-card-back">
+                    <p>This exciting two-part best Detective Conan episode follows Conan as he faces off against Kaitou Kid, the master thief, who plans to steal a precious jewel during a gala event.</p>
+                </div>
+            </div>
+        </div>
+        <div class="flip-card">
+            <div class="flip-card-inner">
+                <div class="flip-card-front">
+                    <img src="images/gallery2.webp" alt="Moonlight Sonata" />
+                    <h3>Moonlight Sonata</h3>
+                </div>
+                <div class="flip-card-back">
+                    <p>Conan investigates a locked-room murder involving a famous composer. The victim, who was about to reveal a secret, is found dead, and the investigation reveals deep emotional ties among the suspects.</p>
+                </div>
+            </div>
+        </div>
+        <div class="flip-card">
+            <div class="flip-card-inner">
+                <div class="flip-card-front">
+                    <img src="images/gallery3.webp" alt="The Captured Blackmailer" />
+                    <h3>The Captured Blackmailer</h3>
+                </div>
+                <div class="flip-card-back">
+                    <p> In this thrilling episode, Conan faces off against a cunning blackmailer who threatens the lives of many. With his friends in danger, Conan must act quickly to save them.</p>
+                </div>
+            </div>
+        </div>
+          <div class="flip-card">
+            <div class="flip-card-inner">
+                <div class="flip-card-front">
+                    <img src="images/gallery4.jpg" alt="The Scarlet School Trip" />
+                    <h3>The Scarlet School Trip</h3>
+                </div>
+                <div class="flip-card-back">
+                    <p>After receiving an antidote from Haibara, Conan temporarily turns back into Kudo Shinichi so he can go on the school trip to Kyoto with Ran, Sonoko, and Sera. Shinichi meets his mother's friend actress Kurachi Keiko at Kiyomizu Temple. She asks Shinichi to decipher a code delivered to her former college classmate Nishiki. While trying to crack the code, Shinichi receives a message from Keiko telling him to come to Nishiki's room, where he finds Nishiki lying on the floor upside down and bleeding from the chest with two bumps on his forehead.</p>
+                </div>
+            </div>
+        </div>
+        <div class="flip-card">
+            <div class="flip-card-inner">
+                <div class="flip-card-front">
+                    <img src="images/gallery5.jpg" alt="Dissonance of the Stradivarius Violin" />
+                    <h3>Dissonance of the Stradivarius Violin</h3>
+                </div>
+                <div class="flip-card-back">
+                    <p>Conan tries to figure out the phone number to the boss of the Black Organization. Mouri is invited by a granddaughter of a rich household to solve these mysterious accidents that happen whenever someone tries to play a Stradivarius for her grandfather on his birthday. Four incidents have happened on that day already and it is about to come up again. Later a fire occurs and a man is burned to death.</p>
+                </div>
+            </div>
+        </div>
+        <div class="flip-card">
+            <div class="flip-card-inner">
+                <div class="flip-card-front">
+                    <img src="images/gallery6.jpg" alt="Three Days With Hattori Heiji" />
+                    <h3>Three Days With Hattori Heiji</h3>
+                </div>
+                <div class="flip-card-back">
+                    <p> A monk claims to see a dead woman's body, but when the police arrives, the body vanishes. The head monk believes that he is hallucinating due to the thought of his dead mother. Conan and Heiji investigate and find out the truth. Was everything the monk saw just an illusion, or is there more to it?</p>
+                </div>
+            </div>
+        </div>
+          <div class="flip-card">
+            <div class="flip-card-inner">
+                <div class="flip-card-front">
+                    <img src="images/gallery7.jpg" alt="The Jet-Black Mystery Train" />
+                    <h3>The Jet-Black Mystery Train</h3>
+                </div>
+                <div class="flip-card-back">
+                    <p>Conan finally resolve the case along with Mori's student Tooru Amuro, as both of them busy explanation, Sera confronts a person in hallway with very shaking details ! Haibara destiny has been settled.</p>
+                </div>
+            </div>
+        </div>
+        <div class="flip-card">
+            <div class="flip-card-inner">
+                <div class="flip-card-front">
+                    <img src="images/gallery8.jpg" alt="Clash of Red and Black" />
+                    <h3>Clash of Red and Black</h3>
+                </div>
+                <div class="flip-card-back">
+                    <p>Conan meets with Jodie who confirms Eisuke has been seen at the hospital and reveals that Eisuke's father was a secret CIA agent who died four years ago by the hands of Rena. Conan follows Jodie to the hospital to search for Eisuke and begins to believe Eisuke might be in trouble because the member of his father's company is really a member of the black organization. Conan talks to a nurse to discover there's a patient in the hospital who is also looking for Rena.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+        </section>
+
+        <!--Contact section-->
+        <section class="section-wrapper" id="Contact"> <!--Section-wrapper-->
+            <div class="box-wrapper">
+                <div class="info-wrap">
+                    <h2 class="info-title">Contact Information</h2>
+                    <h3 class="info-sub-title">Fill up your message here and our team will get back to you</h3>
+                    <ul class="info-details">
+                        <li>
+                            <i class="fas fa-phone-alt"></i>
+                            <span>Phone:</span><a>+4869 221</a>
+                        </li>
+                        <li>
+                            <i class="fas fa-paper-plane"></i>
+                            <span>Email:</span><a>detco@gmail.com</a>
+                        </li>
+                        <li>
+                            <i class="fa-solid fa-location-crosshairs"></i>
+                            <span>Adress:</span><a>3-31-1 Nakano, Nakano-ku, Tokyo, Japan.</a>
+                        </li>
+                    </ul>
+                    <ul class="social-icons">
+                        <li>
+                            <a href="https://www.facebook.com/TMSanime/" target="_blank">
+                                <i class="fab fa-facebook"></i>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="https://x.com/tmsanime"  target="_blank">
+                                <i class="fab fa-twitter"></i>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="http://instagram.com/tmsanime"  target="_blank">
+                                <i class="fab fa-instagram"></i>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="form-wrap">
+                    <form action="#" method="post">
+                        <h2 class="form-title">Send us Message</h2>
+                        <div class="form-fields">
+                            <div class="form-group">
+                                <input type="text" class="fname" placeholder="name">
+                            </div>
+                            <div class="form-group">
+                                <input type="email" class="email" placeholder="mail">
+                            </div>
+                            <div class="form-group">
+                                <input type="number" class="phone" placeholder="phone">
+                            </div>
+                            <div class="form-group">
+                                <textarea name="message" id="" placeholder="write your message"></textarea>
+                            </div>
+                        </div>
+                        <input type="submit" name="kirim" id="Send Message" class="submit-button" value="send"> 
+                    </form>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+    <div class="FooterBottom">
+        <p> &copy;2025 Designed By <span class="designer">Salma Khaerunisa</span></p> 
+       <a href="https://tmsanime.com/detective-conan" target="_blank"> Detective Conan Official Website </a>
+    </div>
+    </footer>
+
+
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script type="text/javascript">
+    $(document).ready(function(){
+ 
+    $('.menu-btn').click(function(){
+        $('.side-bar').addClass('active');
+        $('.menu-btn').css("visibility", "hidden");
+    });
+
+     $('.close-btn').click(function(){
+        $('.side-bar').removeClass('active');
+         $('.menu-btn').css("visibility", "visible");
+    });
+    });
+    </script>
+   
+<script src="https://cdn.jsdelivr.net/npm/swiper@12/swiper-bundle.min.js"></script>
+<script src="UTS_SALMA.js"></script>
+</body>
+</html>

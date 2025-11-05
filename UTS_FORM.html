@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Purchase Merchandise</title>
+    <link rel="icon" href="Images/favicon.ico" type="png">
+    <link rel="stylesheet" href="UTS_SALMA.css">
+</head>
+
+<body>
+
+    <section class="Formulir-section">
+        <h2 class="section-title">Detective Conan Merchandise Purchase Form</h2>
+        <div class="section-content">
+            <form>
+                   <div id="form-notif" class="form-notif" style="display: none;"> Your Purchase has been submitted! </div>
+                <div class="Form-Question">
+                    <label for="ndepan">Full Name: </label>
+                    <br>
+                    <input type="text" id="ndepan" name="ndepan" placeholder="your name here" required>
+                </div>
+                <br>
+
+                <div class="Form-Question">
+                    <label for="phone">Phone Number:</label>
+                    <br>
+                    <input type="tel" id="phone" name="phone" placeholder="0000-0000-0000" required>
+                </div>
+                <br> 
+                <div class="Form-Question">
+                    <label for="email">email:</label>
+                    <br>
+                    <input type="email" id="email" name="email" placeholder="@gmail.com" required>
+                </div>
+                <br>
+                <div class="Form-Question">
+                    <label for="treatment">Shipment Type</label> <br>
+                    <select id="treatment" name="treatment" required>
+                        <option value="JNE Regular / YES">JNE Regular/YES</option>
+                        <option value="SiCepat">SiCepat Best/SiCepat Regular</option>
+                        <option value="AnterAja">AnterAja</option>
+                        <option value="J&T Express">J&T Express</option>
+                        <option value="POS Indonesia">POS Indonesia</option>
+                        <option value="Grab / Gojek (Same Day)">Grab / Gojek (Same Day) </option>
+                    </select>
+                </div>
+                <br>
+                <div class="Form-Question">
+                    <label for="naddres"> Addres: </label>
+                    <br>
+                    <input type="text" id="naddress" name="naddress" placeholder="your adrress here" required>
+                </div>
+                <br>
+              
+
+                <div class="Form-Question">
+                    <label for="Payment">Payment:</label>
+                    <select id="Payment" name="Payment" required>
+                        <option value="Qris">Qris</option>
+                        <option value="Bank Transfer">Bank Transfer</option>
+                        <option value="Cash">Cash</option>
+                        <option value="Dana">Dana</option>
+                        <option value="ShopeePay">ShopeePay</option>
+                        <option value="Gopay">Gopay</option>
+                    </select>
+                </div>
+
+                 <div class="Form-Question">
+                <button>
+                    Check Out
+                </button>
+            </form>
+
+            <div class="Form-Question">
+                <button type="button" onclick="window.location.href='Index.html'">
+                <a href="Index.html"></a> Back to Home
+                </button>
+            </div>
+        </div>
+    </section>
+ 
+
+</body>
+<script>
+  const form = document.querySelector("form");
+  const notif = document.getElementById("form-notif");
+
+  form.addEventListener("submit", function (e) {
+    e.preventDefault(); 
+    notif.style.display = "block"; 
+
+ 
+    setTimeout(() => {
+      notif.style.display = "none";
+    }, 5000);
+  });
+</script>
+
+</html>
